@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.mainpage{
+    width:100%;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+.home header{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.home header h1{
+    font-size: 2.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.signup button{
+    width: 7vw;
+    height: 1.8vw;
+    background-color: black;
+    color: white;
+
+
+}
+.home header nav{
+    display: flex;
+    gap: 40px; 
+}
+.firstpage{
+    width: 100%;
+    height: 80vh;
+    background-color: brown;
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 85vh;
+    background-color:black;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    gap:1vw;
+    padding-left: 4vw;
+    padding-top: 7vw;
+
+}
+.left h4{
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+}
+.left h1{
+    font-size: 4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.left h1 span{
+    color: yellowgreen;
+}
+.left p{
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.left button{
+    width:11vw;
+    height: 4vw;
+    background-color: yellow;
+    color:black;
+    text-align: center;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.3vw;
+    padding-bottom: 4px;
+}
+.left button i{
+    font-size: 1.6vw;
+    
+}
+.right{
+    width: 50%;
+    height: 85vh;
+    background-color: black;
+}
+.right img{
+    width:100%;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    padding-top: 2vw;
+}
+.secondpage{
+    width: 100%;
+    height:20vh;
+    background-color: yellow;
+    align-items: center;
+    
+    
+}
+
+.secondpage footer{
+    display: flex;
+    align-items: center;
+   justify-content:space-around;
+}
+.secondpage footer img{
+    width:60px;
+    text-align: center;
+    padding-top: 3vw;
+    
+}
+.secondpage footer img:nth-child(1){
+    width: 60px;
+    height: 20%;
+}
+.secondpage footer img:nth-child(2){
+    width: 90px;
+    height: 20%;
+    
+
+}
+.secondpage footer img:nth-child(3){
+    width: 90px;
+}
+.secondpage footer img:nth-child(4){
+    width:90px;
+}
+.secondpage footer img:nth-child(5){
+    width: 60px;
+}
+
+.thirdpage{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    
+}
+
+
+ .thirdpage .left1{
+    width: 40%;
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    padding-left: 4vw;
+    padding-top: 2vw;
+}
+.left1 h4{
+    font-size: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: yellow;
+}
+.left1 h1{
+    font-size: 4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.left1 h1 span{
+    color: yellowgreen;
+}
+.left1 button{
+    width: 13vw;
+    height: 4vw;
+    background-color: yellowgreen;
+    color: black;
+    font-size: 1.6vw;
+    text-align: center;
+
+}
+.left1 button i{
+    font-size: 2vw;
+    text-align: center;
+
+}
+
+ .thirdpage .right1{
+    width: 60%;
+    height: 50vh;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    
+}
+.right1 .card{
+    width: 32%;
+    height: 90%;
+    background-color: aqua;
+    padding-top: 3vw;
+}
+.card h1{
+    font-size: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+.card p{
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+    
+.thirdpage .container{
+    width:40%;
+    height: 70%;
+    background-color:aqua;
+    display: flex;
+}
+
+
+
