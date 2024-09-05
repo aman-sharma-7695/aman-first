@@ -58,7 +58,7 @@ html,body{
 .left h4{
     font-size: 1vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: yellow;
+    color: #CBFC01;
 }
 .left h1{
     font-size: 4vw;
@@ -76,7 +76,7 @@ html,body{
 .left button{
     width:11vw;
     height: 4vw;
-    background-color: yellow;
+    background-color:#CBFC01;
     color:black;
     text-align: center;
     border: none;
@@ -103,7 +103,7 @@ html,body{
 .secondpage{
     width: 100%;
     height:20vh;
-    background-color: yellow;
+    background-color:#CBFC01;
     align-items: center;
     
     
@@ -145,7 +145,6 @@ html,body{
     height: 100vh;
     background-color: blueviolet;
     display: flex;
-    
 }
 
 
@@ -175,10 +174,11 @@ html,body{
 .left1 button{
     width: 13vw;
     height: 4vw;
-    background-color: yellowgreen;
+    background-color: #CBFC01;
     color: black;
     font-size: 1.6vw;
     text-align: center;
+    border: none;
 
 }
 .left1 button i{
@@ -190,18 +190,21 @@ html,body{
  .thirdpage .right1{
     width: 60%;
     height: 50vh;
-    background-color: beige;
+    background-color:black;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
+    gap: .1vw;
+    
     
 }
 .right1 .card{
-    width: 32%;
+    width: 32%;  
     height: 90%;
-    background-color: aqua;
+    background-color:#2E2E2E;
     padding-top: 3vw;
+    padding-left: 2vw; 
 }
 .card h1{
     font-size: 1.5vw;
@@ -213,14 +216,27 @@ html,body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
 }
-
-    
 .thirdpage .container{
-    width:40%;
-    height: 70%;
-    background-color:aqua;
+    width: 60%;
+    height: 50vh;
+    background-color: #2E2E2E;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .1vw;
 }
+.container.card{
+    width: 32%;
+    height: 90%;
+    background-color: #2E2E2E;
+    padding-top: 3vw;
+    padding-left: 2vw;
+
+
+}
+
+
+
 
 
 
